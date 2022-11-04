@@ -1,10 +1,12 @@
 import React from "react";
 import "./Home.css";
+import TalentCard from "../../../components/Talent-card/TalentCard"
 
 const Home = () => {
   return (
     <div className="style">
-      <h1>Home Page</h1>
+      <TalentCard/>
+     
     </div>
   );
 };
