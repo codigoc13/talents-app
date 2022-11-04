@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/talents-app/static/css/main.b102d116.css",
+    "main.js": "/talents-app/static/js/main.21b0cacd.js",
+    "static/media/description.jpg": "/talents-app/static/media/description.252f4c0905fbbf562699.jpg",
+    "static/media/Cocogoose Pro Thin-trial.ttf": "/talents-app/static/media/Cocogoose Pro Thin-trial.6440e32616f290a797e9.ttf",
+    "static/media/Cocogoose Pro Light-trial.ttf": "/talents-app/static/media/Cocogoose Pro Light-trial.f77876cfc3790e5308f4.ttf",
+    "static/media/Logo.png": "/talents-app/static/media/Logo.3b0dc98ce9a304cc205a.png",
+    "index.html": "/talents-app/index.html",
+    "main.b102d116.css.map": "/talents-app/static/css/main.b102d116.css.map",
+    "main.21b0cacd.js.map": "/talents-app/static/js/main.21b0cacd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b102d116.css",
+    "static/js/main.21b0cacd.js"
+  ]
+}
