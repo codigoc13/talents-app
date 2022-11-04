@@ -11,7 +11,7 @@ export const getAllStudents = () => {
 
                id: 2,
                name: 'stiven arley pareja jimenez',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667526664/avatars/Stiven_Pareja_p6xal4.jpg",
+               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
                program: "Front End",
                CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
           },
@@ -27,7 +27,7 @@ export const getAllStudents = () => {
 
                id: 4,
                name: 'Kevin Alexis Jaramillo Potosí',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667526664/avatars/Stiven_Pareja_p6xal4.jpg",
+               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
                program: "Front End",
                CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
           },
@@ -42,7 +42,7 @@ export const getAllStudents = () => {
 
                id: 6,
                name: 'Wiston Alberto Mosquera Mosquera',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667526664/avatars/Stiven_Pareja_p6xal4.jpg",
+               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
                program: "Front End",
                CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
           },
@@ -58,7 +58,7 @@ export const getAllStudents = () => {
 
                id: 4,
                name: 'Jhon Edwin Asprilla Guisao ',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667526664/avatars/Stiven_Pareja_p6xal4.jpg",
+               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
                program: "Front End",
                CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
           }
