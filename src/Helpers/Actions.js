@@ -3,7 +3,7 @@ export const getAllStudents = () => {
           {
                id: 1,
                name: 'Isabella zapata pulgarin ',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
+               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667563857/avatars/Isabella_Zapata_5_fxfuxm.jpg",
                program:"Front End",
                CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
           },
@@ -19,7 +19,7 @@ export const getAllStudents = () => {
 
                id: 3,
                name: 'Yinier Smith Mosquera Córdoba ',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667526664/avatars/Stiven_Pareja_p6xal4.jpg",
+               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
                program: "Front End",
                CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
           },
