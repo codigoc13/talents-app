@@ -8,9 +8,10 @@ function App() {
   return (
     <Router>
       <NavBar />
+     
       <Routes>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
+        <Route path="/home" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
       </Routes>
     </Router>
   );
