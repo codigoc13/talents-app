@@ -31,7 +31,7 @@ const TalentCard = () => {
 
   return (
     <div >
-      <h1 className='title'>Students</h1>
+      <h1 className='title'>Talents</h1>
       <div className='container-talents'>
 
       {

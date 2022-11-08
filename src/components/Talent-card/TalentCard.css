@@ -2,6 +2,7 @@
      text-align: center;
      font-family: coogose-light;
      margin: 1.5rem 0;
+     color: #ffcb05;
 }
 
 .container-talents {
@@ -41,5 +42,5 @@
 
 .avatar {
      width: 300px;
-     min-height: 300px;
+     min-height: 250px;
 }
