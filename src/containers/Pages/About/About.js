@@ -1,8 +1,9 @@
 import React from "react";
 import "./About.css";
 import description from '../../../Assets/images/description.jpg';
+
 const About = () => {
-  const titulo = "<<EL CRiMEN NO PAGA TANTO COMO EL CODIGO>>"
+  const titulo = "El talento no debe tener estrato social"
   return (
     <div >
       <div className="container-about">
