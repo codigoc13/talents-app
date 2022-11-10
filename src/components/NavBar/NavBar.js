@@ -1,7 +1,7 @@
-import React from "react";
-import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
-import logo from "../../Assets/images/Logo.png";
-import "./NavBar.css";
+import React from 'react'
+import { Nav, NavLink, Bars, NavMenu } from './NavbarElements'
+import logo from '../../Assets/images/logo2.0.png'
+import './NavBar.css'
 
 const NavBar = () => {
   return (
@@ -9,14 +9,21 @@ const NavBar = () => {
       <Nav>
         <Bars />
         <NavMenu>
+
           <NavLink to="/home">
-            <img className="logo" src={logo} />
+            <img className="logo" src={logo} alt="" />
           </NavLink>
-          <NavLink to="/about">About Us</NavLink>
+
+        </NavMenu>
+
+        <NavMenu>
+
           <NavLink to="/home">Home</NavLink>
+          <NavLink to="/about">About Us</NavLink>
+
         </NavMenu>
       </Nav>
     </>
-  );
-};
-export default NavBar;
+  )
+}
+export default NavBar

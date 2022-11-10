@@ -10,7 +10,7 @@ function App() {
       <NavBar />
      
       <Routes>
-      <Route path="/talents-app" element={<Home />} />
+        <Route path="/talents-app" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home/>} />
         <Route path="/about" element={<About/>} />
