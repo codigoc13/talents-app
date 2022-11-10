@@ -15,7 +15,7 @@
 }
 
 .card-talent {
-     background: rgba(0, 0, 0, 0.25);
+     background: #D8D8D8;
      box-shadow: 0 8px 32px 0 rgb(120, 120, 178, 0.3);
      backdrop-filter: blur(0px);
      -webkit-backdrop-filter: blur(0px);
@@ -24,9 +24,9 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     width: 80%;
+     width: 70%;
      padding: 1.5rem;
-     height: 400px;
+     height: 480px;
      font-family: coogose-thin;
      gap: 0.5rem;
 }
@@ -43,4 +43,52 @@
 .avatar {
      width: 300px;
      min-height: 250px;
+}
+
+.swal2-popup.swal2-modal.swal2-show{
+    width: 900px;
+    height: 509px;
+    background-color: #1E1E1E;
+     color: #ffffff;
+}
+
+.container-links-profiles{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+.links-profile{
+     text-decoration: none;
+     border: none;
+     color: #ffffff;
+}
+
+.section-description-participant{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 140px;
+     margin-left: 30px;
+}
+
+.name-participant{
+     width: 300px;
+     display: flex;
+     align-items: flex-start;
+}
+
+.container-participant-popap{
+     display: flex;
+     align-items: center;
+     gap: 60px;
+}
+
+.Name-program{
+     text-align: center;
+}
+
+.img-popap{
+     width: 400px;
+     height: 300px;
 }

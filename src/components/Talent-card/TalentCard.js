@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { getAllStudents } from '../../Helpers/Actions'
-import { FaGithub } from 'react-icons/fa'
 import './TalentCard.css'
 import Swal from 'sweetalert2'
 
@@ -9,16 +8,38 @@ const TalentCard = () => {
   
   const showAlert = (studentInfo) => {
     Swal.fire({
-      imageUrl: studentInfo.avatarUrl,
-      imageWidth: 400,
-      imageHeight: 300,
-      imageAlt: 'A tall image',
-      title: studentInfo.name,
       showConfirmButton: false,
       
       html:
         
-        `<a href=${studentInfo.CV}>Curriculum Vitae</a> ` 
+        `
+      <div class="container-participant-popap">
+
+        <section class="section-description-participant">
+
+            <div class="program">
+              <h1>${studentInfo.program}</h1>
+            </div>
+
+            <div class="name-participant">
+              <h2>${studentInfo.name}</h2>
+            </div>
+
+            <div class="container-links-profiles">
+              <a href="" class="links-profile">Github</a>
+              <a href="" class="links-profile">Portafolio</a>
+              <a href=${studentInfo.CV} class="links-profile" target="_blanck">Curriculum Vitae</a>
+            </div>
+        </section>
+
+        <section>
+            <div>
+              <img class="img-popap" src=${studentInfo.avatarUrl} alt=${studentInfo.name}>
+            </div>          
+        </section>
+
+      </div>
+        ` 
 
     })
   }
@@ -37,15 +58,20 @@ const TalentCard = () => {
       {
         studentsInformation.map(student => (
           <div key={student.id} className="card-talent" onClick={()=>showAlert(student)}>
-            <h2>
-              {
-                student.name
-              }
-            </h2>
-            <img className='avatar' src={student.avatarUrl} />
-            <h3>
+            
+            <img className='avatar' src={student.avatarUrl} alt=""/>
+            
+            <div className='Name-program'>
+
+            <h5>
+              {student.name}
+            </h5>
+
+            <h4>
               {student.program}
-            </h3>
+            </h4>
+
+            </div>
             
           </div>
         ))
