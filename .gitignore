@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+#Color de visual
+.vscode
+
 # production
 /build
 
