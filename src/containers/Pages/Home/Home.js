@@ -4,7 +4,7 @@ import TalentCard from "../../../components/Talent-card/TalentCard"
 
 const Home = () => {
   return (
-    <div className="style">
+    <div className="container-principal">
       <TalentCard/>
      
     </div>

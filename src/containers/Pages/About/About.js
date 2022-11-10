@@ -5,7 +5,7 @@ import description from "../../../Assets/images/description.jpg";
 const About = () => {
   const titulo = "El talento no debe tener estrato social";
   return (
-    <div>
+    <div className="container-principal">
       <div className="container-about">
         <div className="container-titles">
           <h1 className="title-aboutUs">Escuela de Código Comuna C13</h1>
