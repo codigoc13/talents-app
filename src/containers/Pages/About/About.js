@@ -1,17 +1,19 @@
-import React from "react";
-import "./About.css";
-import description from "../../../Assets/images/description.jpg";
+import React from 'react'
+import './About.css'
+import description from '../../../Assets/images/description.jpg'
 
 const About = () => {
-  const titulo = "El talento no debe tener estrato social";
+  const titulo = 'El talento no debe tener estrato social'
   return (
-    <div>
+    <div className="container-principal">
       <div className="container-about">
         <div className="container-titles">
           <h1 className="title-aboutUs">Escuela de Código Comuna C13</h1>
-          <h2>{titulo}</h2>
+          <h2 className='slogan'>{titulo}</h2>
         </div>
+      </div>
 
+      <div>
         <iframe
           width="100%"
           height="400"
@@ -24,7 +26,7 @@ const About = () => {
       </div>
 
       <div className="container-description">
-        <img className="image-description" src={description} />
+        <img className="image-description" src={description} alt="" />
       </div>
 
       <div className="container-description">
@@ -39,7 +41,7 @@ const About = () => {
         ></iframe>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

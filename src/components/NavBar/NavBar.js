@@ -3,6 +3,7 @@ import { Nav, NavLink, Bars, NavMenu } from './NavbarElements'
 import logo from '../../Assets/images/logo2.0.png'
 import './NavBar.css'
 
+
 const NavBar = () => {
   return (
     <>
@@ -18,11 +19,12 @@ const NavBar = () => {
 
         <NavMenu>
 
-          <NavLink to="/home">Home</NavLink>
-          <NavLink to="/about">About Us</NavLink>
+          <NavLink to="/home">Inicio</NavLink>
+          <NavLink to="/about">Sobre Nosotros</NavLink>
 
         </NavMenu>
       </Nav>
+      
     </>
   )
 }

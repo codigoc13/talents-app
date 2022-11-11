@@ -13,6 +13,7 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 4;
   box-shadow: 0 0 7px 0 #ffcb05;
+  font-weight: bolder;
 `
 
 export const NavLink = styled(Link)`
@@ -22,8 +23,8 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
-  font-family: coogose-thin;
-  font-weight: bolder;
+  font-size: 1.2rem;
+  font-family: 'coogose-light';
   cursor: pointer;
   &.active {
     color: #ffffff;
