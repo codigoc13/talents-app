@@ -10,34 +10,23 @@ const TalentCard = () => {
     Swal.fire({
       showConfirmButton: false,
       
-      html:
-        
+      html:  
         `
       <div class="container-participant-popap">
 
-        <section class="section-description-participant">
+        <div class="card-font">
+        </div>
 
-            <div class="program">
-              <h1>${studentInfo.program}</h1>
-            </div>
+        <div>
+          <img class="avatarUrl" src=${studentInfo.avatarUrl} src=""/>
+          <img src="" src=""/>
+        </div>
 
-            <div class="name-participant">
-              <h2>${studentInfo.name}</h2>
-            </div>
-
-            <div class="container-links-profiles">
-              <a href="" class="links-profile">Github</a>
-              <a href="" class="links-profile">Portafolio</a>
-              <a href=${studentInfo.CV} class="links-profile" target="_blanck">Curriculum Vitae</a>
-            </div>
-        </section>
-
-        <section>
-            <div>
-              <img class="img-popap" src=${studentInfo.avatarUrl} alt=${studentInfo.name}>
-            </div>          
-        </section>
-
+        <div class="div-ruta">
+          <p class="Curse">Desarrollo Web</p>
+          <p class="program">${studentInfo.program}</p>
+        </div>
+        
       </div>
         ` 
 
@@ -58,13 +47,16 @@ const TalentCard = () => {
       {
         studentsInformation.map(student => (
           <div key={student.id} className="card-talent" onClick={()=>showAlert(student)}>
+            <div className='ImageSymbol'>
+              <img className='avatar' src={student.avatarUrl} alt=""/>
+              <img className='symbol' src={student.symbolUrl} alt=""/>
+            </div>
             
-            <img className='avatar' src={student.avatarUrl} alt=""/>
             
             <div className='Name-program'>
 
-            <h5>
-              {student.name}
+            <h5 className='Name'>
+              {student.nickName}
             </h5>
 
             <h4>

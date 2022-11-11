@@ -2,8 +2,10 @@ export const getAllStudents = () => {
      const students = [
           {
                id: 1,
-               name: 'Isabella zapata pulgarin ',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667563857/avatars/Isabella_Zapata_5_fxfuxm.jpg",
+               name: 'Isabella Zapata Pulgarin',
+               nickName: 'Isabella Zapata',
+               avatarUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668181478/Isabella_Zapata_djfunh.png",
+               symbolUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668094498/Capa_1_jzulai.png",
                program:"FrontEnd",
                CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
           },

@@ -48,7 +48,7 @@
 .swal2-popup.swal2-modal.swal2-show{
     width: 900px;
     height: 509px;
-    background-color: #1E1E1E;
+    background-color: #D8D8D8;
      color: #ffffff;
 }
 
@@ -62,13 +62,14 @@
      text-decoration: none;
      border: none;
      color: #ffffff;
+     gap: 5px;
 }
 
 .section-description-participant{
      display: flex;
      flex-direction: column;
      align-items: flex-start;
-     gap: 140px;
+     gap: 120px;
      margin-left: 30px;
 }
 
@@ -81,14 +82,83 @@
 .container-participant-popap{
      display: flex;
      align-items: center;
-     gap: 60px;
 }
 
 .Name-program{
+     width: 300px;
+     height: 100px;
      text-align: center;
+     z-index: 10;
+     background-color: #D8D8D8;
 }
 
-.img-popap{
-     width: 400px;
-     height: 300px;
+.img-popup{
+     width: 320px;
+     height: 160px;
+     position: relative;
+     z-index: 6;
+}
+
+.symbol-popup{
+     width: 200px;
+     position: relative;
+}
+
+.ImageSymbol{
+     max-width: 500px;
+     max-height: 350px;
+}
+
+.avatar{
+     width: 200px;
+     height: 400px;
+     z-index: 5;
+     position: relative;
+     left: 58px;
+}
+
+
+.symbol{
+     position: relative;
+    bottom: 406px;
+    left: 0px;
+    width: 300px;
+}
+
+.Name{
+     font-size: 18px;
+     margin-top: 25px;
+}
+
+.card-font{
+    background-color: #ffffff;
+    width: 720px;
+    height: 201px;
+    position: relative;
+    left: 59px;
+    top: 22px;
+    border-radius: 10px;
+}
+
+.avatarUrl{
+    width: 232px;
+    z-index: 5;
+    left: 160px;
+    position: absolute;
+}
+
+.div-ruta{
+     width: 228px;
+     position: absolute;
+     top: 115px;
+     right: 183px;
+     color: black;
+     font-size: 22px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+}
+
+.program{
+     color: #ffcb05;
 }
