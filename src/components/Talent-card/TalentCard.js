@@ -56,7 +56,7 @@ const TalentCard = () => {
 
   return (
     <div >
-      <h1 className='title'>Talents</h1>
+      <h1 className='title'>Nuestros Talentos</h1>
       <div className='container-talents'>
 
         {
