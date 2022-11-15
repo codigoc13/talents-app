@@ -18,8 +18,8 @@ const TalentCard = () => {
         </div>
 
         <div>
-          <img class="avatarUrl" src=${studentInfo.avatarUrl} src=""/>
-          <img src="" src=""/>
+          <img class="avatarUrl" src=${studentInfo.avatarUrl} alt=""/>
+          <img  class="symbolUrl" src=${studentInfo.symbolUrl} alt=""/>
         </div>
 
         <div class="div-ruta">
@@ -27,6 +27,15 @@ const TalentCard = () => {
           <p class="program">${studentInfo.program}</p>
         </div>
         
+        <div class="div-name">
+            <p class="name">${studentInfo.name}</p>
+        </div>
+
+        <div class="social">
+            <a href="" class="item-social"><i class="ph-github-logo"></i>Github</a>
+            <a href="" class="item-social"><i class="ph-globe"></i>Portafolio</a>
+            <a href=${studentInfo.cv} class="item-social"><i class="ph-file"></i>Resumen</a>
+        </div>
       </div>
         ` 
 
