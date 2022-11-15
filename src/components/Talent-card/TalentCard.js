@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { getAllStudents } from '../../Helpers/Actions'
-import { FaGithub } from 'react-icons/fa'
 import './TalentCard.css'
 import Swal from 'sweetalert2'
 
@@ -9,16 +8,36 @@ const TalentCard = () => {
   
   const showAlert = (studentInfo) => {
     Swal.fire({
-      imageUrl: studentInfo.avatarUrl,
-      imageWidth: 400,
-      imageHeight: 300,
-      imageAlt: 'A tall image',
-      title: studentInfo.name,
       showConfirmButton: false,
       
-      html:
+      html:  
+        `
+      <div class="container-participant-popap">
+
+        <div class="card-font">
+        </div>
+
+        <div>
+          <img class="avatarUrl" src=${studentInfo.avatarUrl} alt=""/>
+          <img  class="symbolUrl" src=${studentInfo.symbolUrl} alt=""/>
+        </div>
+
+        <div class="div-ruta">
+          <p class="Curse">Desarrollo Web</p>
+          <p class="program">${studentInfo.program}</p>
+        </div>
         
-        `<a href=${studentInfo.CV}>Curriculum Vitae</a> ` 
+        <div class="div-name">
+            <p class="name">${studentInfo.name}</p>
+        </div>
+
+        <div class="social">
+            <a href=${studentInfo.github} class="item-social" target="_blanck"><i class="ph-github-logo"></i>Github</a>
+            <a href=${studentInfo.portafolio} class="item-social" target="_blanck"><i class="ph-globe"></i>Portafolio</a>
+            <a href=${studentInfo.cv} class="item-social" target="_blanck"><i class="ph-file"></i>Resumen</a>
+        </div>
+      </div>
+        ` 
 
     })
   }
@@ -37,15 +56,23 @@ const TalentCard = () => {
       {
         studentsInformation.map(student => (
           <div key={student.id} className="card-talent" onClick={()=>showAlert(student)}>
-            <h2>
-              {
-                student.name
-              }
-            </h2>
-            <img className='avatar' src={student.avatarUrl} />
-            <h3>
+            <div className='ImageSymbol'>
+              <img className='avatar' src={student.avatarUrl} alt=""/>
+              <img className='symbol' src={student.symbolUrl} alt=""/>
+            </div>
+            
+            
+            <div className='Name-program'>
+
+            <h5 className='Name'>
+              {student.nickName}
+            </h5>
+
+            <h4>
               {student.program}
-            </h3>
+            </h4>
+
+            </div>
             
           </div>
         ))

@@ -2,60 +2,101 @@ export const getAllStudents = () => {
      const students = [
           {
                id: 1,
-               name: 'Isabella zapata pulgarin ',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667563857/avatars/Isabella_Zapata_5_fxfuxm.jpg",
-               program:"Front End",
-               CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
+               name: 'Isabella Zapata Pulgarin',
+               nickName: 'Isabella Zapata',
+               avatarUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668525693/Isabella_Zapata-PhotoRoom_wxqv16.png",
+               symbolUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Numeral_cixgbr.svg",
+               program:"FrontEnd",
+               cv:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view",
+               github: "https://github.com/JMosqb11",
+               portafolio: "https://jmosqb11.github.io/PORTAFOLIO/Portafolio.html"
           },
           {
 
                id: 2,
-               name: 'stiven arley pareja jimenez',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
-               program: "Front End",
-               CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
+               name: 'Jhonier Andres Mosquera Benitez',
+               nickName: 'Jhonier Mosquera',
+               avatarUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668525693/Jhonier_Mosquera-PhotoRoom_jz0xh0.png",
+               symbolUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Numeral_cixgbr.svg",
+               program: "FrontEnd",
+               cv:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view",
+               github: "https://github.com/JMosqb11",
+               portafolio: "https://jmosqb11.github.io/PORTAFOLIO/Portafolio.html"
           },
           {
 
                id: 3,
-               name: 'Yinier Smith Mosquera Córdoba ',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
-               program: "Front End",
-               CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
+               name: 'Stiven Arley Pareja Jimenez',
+               nickName: 'Stiven Pareja',
+               avatarUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668525693/Stiven_Pareja-PhotoRoom_tp2e6t.png",
+               symbolUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Numeral_cixgbr.svg",
+               program: "FrontEnd",
+               cv:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view",
+               github: "https://github.com/JMosqb11",
+               portafolio: "https://jmosqb11.github.io/PORTAFOLIO/Portafolio.html"
           },
           {
 
                id: 4,
-               name: 'Kevin Alexis Jaramillo Potosí',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
-               program: "Front End",
-               CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
+               name: 'Lorena Valentina Montoya Estrada',
+               nickName:'Lorena Montoya',
+               avatarUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668525693/Lorena_Valentina_Montoya.-PhotoRoom_vpjgmx.png",
+               symbolUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Agrupado_eslash_jqowrw.svg",
+               program: "BackEnd",
+               cv:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view",
+               github: "https://github.com/JMosqb11",
+               portafolio: "https://jmosqb11.github.io/PORTAFOLIO/Portafolio.html"
+          },
+          {
+
+               id: 5,
+               name: 'Anderson Lozano Velásquez',
+               nickName: 'Anderson Lozano',
+               avatarUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668525692/Anderson_Lozano_V.-PhotoRoom_yngamf.png",
+               symbolUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Agrupado_llaves_y2pt2j.svg",
+               program: "FullStack",
+               cv:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view",
+               github: "https://github.com/JMosqb11",
+               portafolio: "https://jmosqb11.github.io/PORTAFOLIO/Portafolio.html"
           },
           
           {
 
-               id: 5,
-               name: 'Wiston Alberto Mosquera Mosquera',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
-               program: "Front End",
-               CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
-          },
-          {
-
                id: 6,
-               name: 'Estivinson Murillo Ayala',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667531305/avatars/Estivinson_Murillo_A._yzr4ax.jpg",
-               program: "Front End",
-               CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
+               name: 'Wiston Alberto Mosquera Mosquera',
+               nickName: 'Wiston Mosquera',
+               avatarUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668525881/Wiston_Mosquera_M.-PhotoRoom_qn1ab6.png",
+               symbolUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Numeral_cixgbr.svg",
+               program: "FrontEnd",
+               cv:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view",
+               github: "https://github.com/JMosqb11",
+               portafolio: "https://jmosqb11.github.io/PORTAFOLIO/Portafolio.html"
           },
           {
 
                id: 7,
+               name: 'Estivinson Murillo Ayala',
+               nickName: 'Estivinson Murillo',
+               avatarUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668525881/Estivinson_Murillo_A.-PhotoRoom_llobqy.png",
+               symbolUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Numeral_cixgbr.svg",
+               program: "FrontEnd",
+               cv:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view",
+               github: "https://github.com/JMosqb11",
+               portafolio: "https://jmosqb11.github.io/PORTAFOLIO/Portafolio.html"
+          },
+          {
+
+               id: 8,
                name: 'Jhon Edwin Asprilla Guisao ',
-               avatarUrl: "https://res.cloudinary.com/dpfrys3uj/image/upload/v1667527315/avatars/IMG-20221031-WA0018_lsbkwt.jpg",
-               program: "Front End",
-               CV:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view?usp=share_link"
-          }
+               nickName: 'Jhon Edwin Asprilla',
+               avatarUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668525692/Jhon_Edwin_Asprilla_G.-PhotoRoom_dspxhx.png",
+               symbolUrl: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Numeral_cixgbr.svg",
+               program: "FrontEnd",
+               cv:"https://drive.google.com/file/d/1s7fR7BkEOjSvDO4Hprj1zN9MI7PWaOHD/view",
+               github: "https://github.com/JMosqb11",
+               portafolio: "https://jmosqb11.github.io/PORTAFOLIO/Portafolio.html"
+          },
+          
      ]
      return students
 }

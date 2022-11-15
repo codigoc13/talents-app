@@ -1,46 +1,216 @@
+@font-face {
+     font-family: "trial-pro-bold";
+     src: url("../../Assets/fonts/Cocogoose\ Pro\ Light-trial.ttf");
+}
+
+@font-face {
+     font-family: "thin-italic";
+     src: url("../../Assets/fonts/Cocogoose\ Pro\ Thin\ Italic-trial.ttf");
+}
 .title {
-     text-align: center;
-     font-family: coogose-light;
-     margin: 1.5rem 0;
-     color: #ffcb05;
+  text-align: center;
+  font-family: coogose-light;
+  margin: 1.5rem 0;
+  color: #ffcb05;
 }
 
 .container-talents {
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr ;
-     justify-items: center;
-     align-items: center;
-     justify-content: center;
-     gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .card-talent {
-     background: rgba(0, 0, 0, 0.25);
-     box-shadow: 0 8px 32px 0 rgb(120, 120, 178, 0.3);
-     backdrop-filter: blur(0px);
-     -webkit-backdrop-filter: blur(0px);
-     border-radius: 10px;
-     /* border: 1px solid rgba(255, 255, 255, 0.18); */
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     width: 80%;
-     padding: 1.5rem;
-     height: 400px;
-     font-family: coogose-thin;
-     gap: 0.5rem;
+  background: #d8d8d8;
+  box-shadow: 0 8px 32px 0 #7878b24d;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  padding: 1.5rem;
+  height: 480px;
+  font-family: coogose-thin;
+  gap: 0.5rem;
 }
 
 .card-talent:hover {
-     transform: scale(1.1);
-     -webkit-transform: scale(1.1);
-     -moz-transform: scale(1.1);
-     -ms-transform: scale(1.1);
-     -o-transform: scale(1.1);
-     cursor: pointer;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  cursor: pointer;
 }
 
 .avatar {
+  width: 300px;
+  min-height: 250px;
+}
+
+.swal2-popup.swal2-modal.swal2-show {
+  width: 900px;
+  height: 509px;
+  background-color: #d8d8d8;
+  color: #ffffff;
+}
+
+.container-links-profiles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.links-profile {
+  text-decoration: none;
+  border: none;
+  color: #ffffff;
+  gap: 5px;
+}
+
+.section-description-participant {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 120px;
+  margin-left: 30px;
+}
+
+.name-participant {
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-participant-popap {
+  display: flex;
+  align-items: center;
+}
+
+.Name-program {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  z-index: 10;
+  background-color: #d8d8d8;
+}
+
+.img-popup {
+  width: 320px;
+  height: 160px;
+  position: relative;
+  z-index: 6;
+}
+
+.symbol-popup {
+  width: 200px;
+  position: relative;
+}
+
+.ImageSymbol {
+  max-width: 500px;
+  max-height: 350px;
+}
+
+.avatar {
+  width: 200px;
+  height: 400px;
+  z-index: 5;
+  position: relative;
+  left: 58px;
+}
+
+.symbol {
+  position: relative;
+  bottom: 406px;
+  left: 0px;
+  width: 300px;
+}
+
+.Name {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.card-font {
+  background-color: #ffffff;
+  width: 720px;
+  height: 201px;
+  position: relative;
+  left: 59px;
+  top: 22px;
+  border-radius: 10px;
+}
+
+.avatarUrl {
+  width: 232px;
+  z-index: 5;
+  left: 160px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.div-ruta {
+  width: 228px;
+  position: absolute;
+  top: 115px;
+  right: 183px;
+  color: black;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "thin-italic";
+}
+
+.program {
+  color: #ffcb05;
+  font-weight: bold;
+}
+
+.div-name {
+  z-index: 6;
+  color: black;
+  position: absolute;
+  top: 260px;
+  right: 88px;
+  font-size: 31px;
+  width: 350px;
+  font-weight: bold;
+  text-align: start;
+  font-family: "trial-pro-bold";
+}
+
+.social {
+  z-index: 7;
+  position: relative;
+  top: 309px;
+  right: 44px;
+}
+
+.item-social {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  gap: 7px;
+  padding-bottom: 13px;
+}
+.symbolUrl{
+     z-index: 4;
+     position: absolute;
      width: 300px;
-     min-height: 250px;
+     left: 102px;
+     bottom: 41px; 
+
+}
+.Curse{
+  font-weight: bold;
 }
