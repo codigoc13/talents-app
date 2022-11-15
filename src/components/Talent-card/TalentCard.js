@@ -2,15 +2,17 @@ import React, { useState, useEffect } from 'react'
 import { getAllStudents } from '../../Helpers/Actions'
 import './TalentCard.css'
 import Swal from 'sweetalert2'
+import { getSymbol } from '../../Helpers/symbols'
 
 const TalentCard = () => {
   const [studentsInformation, setstudentsInformation] = useState([])
-  
+  const [symbols, setSymbols] = useState([])
+
   const showAlert = (studentInfo) => {
     Swal.fire({
       showConfirmButton: false,
-      
-      html:  
+
+      html:
         `
       <div class="container-participant-popap">
 
@@ -19,7 +21,7 @@ const TalentCard = () => {
 
         <div>
           <img class="avatarUrl" src=${studentInfo.avatarUrl} alt=""/>
-          <img  class="symbolUrl" src=${studentInfo.symbolUrl} alt=""/>
+                    
         </div>
 
         <div class="div-ruta">
@@ -32,18 +34,22 @@ const TalentCard = () => {
         </div>
 
         <div class="social">
-            <a href=${studentInfo.github} class="item-social" target="_blanck"><i class="ph-github-logo"></i>Github</a>
-            <a href=${studentInfo.portafolio} class="item-social" target="_blanck"><i class="ph-globe"></i>Portafolio</a>
-            <a href=${studentInfo.cv} class="item-social" target="_blanck"><i class="ph-file"></i>Resumen</a>
+            <a target="_blank" href=${studentInfo.github} class="item-social" target="_blanck"><i class="ph-github-logo"></i>Github</a>
+            <a target="_blank" href=${studentInfo.portafolio} class="item-social" target="_blanck"><i class="ph-globe"></i>Portafolio</a>
+            <a target="_blank" href=${studentInfo.cv} class="item-social" target="_blanck"><i class="ph-file"></i>Resumen</a>
         </div>
       </div>
-        ` 
+        `
 
     })
   }
+
+
   useEffect(() => {
     (async () => {
       setstudentsInformation(getAllStudents())
+      setSymbols(getSymbol())
+
     })()
 
   }, [])
@@ -53,30 +59,35 @@ const TalentCard = () => {
       <h1 className='title'>Talents</h1>
       <div className='container-talents'>
 
-      {
-        studentsInformation.map(student => (
-          <div key={student.id} className="card-talent" onClick={()=>showAlert(student)}>
-            <div className='ImageSymbol'>
-              <img className='avatar' src={student.avatarUrl} alt=""/>
-              <img className='symbol' src={student.symbolUrl} alt=""/>
+        {
+          studentsInformation.map(student => (
+            <div key={student.id} className="card-talent" onClick={() => showAlert(student)}>
+              <div className='ImageSymbol'>
+                <img className='avatar' src={student.avatarUrl} alt="" />
+               
+                {
+                  symbols.filter(name => name.program === student.program).map(filteredName => (
+                  <img key={filteredName.id} className='symbol' src={filteredName.urlSymbol} alt=""/>
+                  ))
+                }
+              </div>
+
+
+              <div className='Name-program'>
+
+                <h5 className='Name'>
+                  {student.nickName}
+                </h5>
+
+                <h4>
+                  {student.program}
+                </h4>
+
+              </div>
+
             </div>
-            
-            
-            <div className='Name-program'>
-
-            <h5 className='Name'>
-              {student.nickName}
-            </h5>
-
-            <h4>
-              {student.program}
-            </h4>
-
-            </div>
-            
-          </div>
-        ))
-      }
+          ))
+        }
       </div>
     </div>
   )
