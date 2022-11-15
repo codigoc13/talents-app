@@ -32,9 +32,9 @@ const TalentCard = () => {
         </div>
 
         <div class="social">
-            <a href="" class="item-social"><i class="ph-github-logo"></i>Github</a>
-            <a href="" class="item-social"><i class="ph-globe"></i>Portafolio</a>
-            <a href=${studentInfo.cv} class="item-social"><i class="ph-file"></i>Resumen</a>
+            <a href=${studentInfo.github} class="item-social" target="_blanck"><i class="ph-github-logo"></i>Github</a>
+            <a href=${studentInfo.portafolio} class="item-social" target="_blanck"><i class="ph-globe"></i>Portafolio</a>
+            <a href=${studentInfo.cv} class="item-social" target="_blanck"><i class="ph-file"></i>Resumen</a>
         </div>
       </div>
         ` 
