@@ -1,12 +1,13 @@
 @font-face {
-     font-family: "trial-pro-bold";
-     src: url("../../Assets/fonts/Cocogoose\ Pro\ Light-trial.ttf");
+  font-family: "trial-pro-bold";
+  src: url("../../Assets/fonts/Cocogoose\ Pro\ Light-trial.ttf");
 }
 
 @font-face {
-     font-family: "thin-italic";
-     src: url("../../Assets/fonts/Cocogoose\ Pro\ Thin\ Italic-trial.ttf");
+  font-family: "thin-italic";
+  src: url("../../Assets/fonts/Cocogoose\ Pro\ Thin\ Italic-trial.ttf");
 }
+
 .title {
   text-align: center;
   font-family: coogose-light;
@@ -203,14 +204,37 @@
   gap: 7px;
   padding-bottom: 13px;
 }
-.symbolUrl{
-     z-index: 4;
-     position: absolute;
-     width: 300px;
-     left: 102px;
-     bottom: 41px; 
+
+.symbolUrl {
+  z-index: 4;
+  position: absolute;
+  width: 300px;
+  left: 102px;
+  bottom: 41px;
 
 }
-.Curse{
+
+.Curse {
   font-weight: bold;
+}
+
+@media only screen and (max-width : 1299px) {
+  .container-talents {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-talent {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width : 499px) {
+
+  .container-talents {
+    grid-template-columns: 1fr;
+  }
+
+  .card-talent {
+    width: 90%;
+  }
 }
