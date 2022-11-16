@@ -34,9 +34,10 @@ const TalentCard = () => {
         </div>
 
         <div class="social">
-            <a target="_blank" href=${studentInfo.github} class="item-social" target="_blanck"><i class="ph-github-logo"></i>Github</a>
-            <a target="_blank" href=${studentInfo.portafolio} class="item-social" target="_blanck"><i class="ph-globe"></i>Portafolio</a>
-            <a target="_blank" href=${studentInfo.cv} class="item-social" target="_blanck"><i class="ph-file"></i>Resumen</a>
+            <a target="_blank" href=${studentInfo.github} class="item-social"><i class="ph-github-logo fa"></i>Github</a>
+            <a target="_blank" href=${studentInfo.portafolio} class="item-social"><i class="ph-globe fa"></i>Portafolio</a>
+            <a target="_blank" href=${studentInfo.cv} class="item-social"><i class="ph-file fa"></i>Resumen</a>
+            <a target="_blank" href="" class="item-social"><i class="ph-linkedin-logo fa"></i>Linkedin</a>
         </div>
       </div>
         `
@@ -79,7 +80,7 @@ const TalentCard = () => {
                   {student.nickName}
                 </h5>
 
-                <h4>
+                <h4 className='program-card'>
                   {student.program}
                 </h4>
 
