@@ -190,27 +190,37 @@
 }
 
 .social {
-  z-index: 7;
-  position: relative;
-  top: 309px;
-  right: 44px;
+  z-index: 8;
+  display: flex;
+  position: absolute;
+  right: 64px;
+  bottom: 83px;
+  gap: 21px;
+
 }
 
 .item-social {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   text-decoration: none;
   color: black;
-  gap: 7px;
-  padding-bottom: 13px;
 }
 
-.symbolUrl {
-  z-index: 4;
-  position: absolute;
-  width: 300px;
-  left: 102px;
-  bottom: 41px;
+.item-social:hover{
+  text-decoration:underline;
+}
+
+.fa:hover{
+  text-decoration: none;
+}
+
+
+.symbolUrl{
+     z-index: 4;
+     position: absolute;
+     width: 300px;
+     left: 102px;
+     bottom: 41px; 
 
 }
 
@@ -237,4 +247,8 @@
   .card-talent {
     width: 90%;
   }
+}
+
+.program-card{
+  font-family: "trial-pro-bold";
 }
