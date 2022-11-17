@@ -9,11 +9,11 @@ const Footer = () => {
         <ul className="items-footer">
           <ol className="ol">
             <li className="link-footer">
-              <NavLink to="/home">Home</NavLink>
+              <NavLink to="/home">Inicio</NavLink>
             </li>
 
             <li className="link-footer">
-              <NavLink to="/about">About Us</NavLink>
+              <NavLink to="/about">Sobre nosotros</NavLink>
             </li>
           </ol>
           <li data-color="#1877f2" className="item">

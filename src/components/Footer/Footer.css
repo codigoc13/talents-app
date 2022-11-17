@@ -74,7 +74,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(89, 56, 149);
+  color: rgb(0, 0, 0);
   border-radius: 100px;
   text-decoration: none;
   margin: 20px;
@@ -90,4 +90,5 @@
   background: #fee600;
   width: 100%;
   text-align: center;
+  font-size: 1rem;
 }
