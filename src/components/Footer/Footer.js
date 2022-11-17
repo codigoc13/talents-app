@@ -5,29 +5,39 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div>
-      <footer>
-        <div className='navFooter'>
-          <NavLink to="/home" className="navItems">Inicio</NavLink>
-          <NavLink to="/about" className="navItems">Sobre Nosotros</NavLink>
-        </div>
-        <div className='redesSocial'>
+      <footer className="redes">
+        <ol className="ol">
+          <li className="link-footer">
+            <NavLink to="/home">Inicio</NavLink>
+          </li>
 
-          <a href='https://www.facebook.com/profile.php?id=100083129922344' className='itemsSocial'>
-          <i className="fa-brands fa-facebook li" aria-hidden="true"></i>
-          </a>
+          <li className="link-footer">
+            <NavLink to="/about">Sobre nosotros</NavLink>
+          </li>
+        </ol>
 
-          <a href='https://www.instagram.com/codigo.c13/">' className='itemsSocial'>
-          <i className="fa-brands fa-instagram li" aria-hidden="true"></i>
-          </a>
+        <ul className="items-footer">
+          <li data-color="#1877f2" className="item">
+            <a href="https://www.facebook.com/profile.php?id=100083129922344">
+              <i className="fa-brands fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
 
-          <a href='https://www.linkedin.com/company/corporación-afrocolombiana-son-batá/' className='itemsSocial'>
-          <i className="fa-brands fa-linkedin li" aria-hidden="true"></i>
-          </a>
-        </div>
+          <li data-color="#ff6600" className="item">
+            <a href="https://www.instagram.com/codigo.c13/">
+              <i className="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
 
-        <div className='copyright'>
-            <span>Hecho con ❤️ & ☕ por participantes de la primera cohorte.</span>
-        </div>
+          <li data-color="#2260e7" className="item">
+            <a href="https://www.linkedin.com/company/corporación-afrocolombiana-son-batá/">
+              <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+          <span className="slogan-footer">
+            Hecho con amor ❤️ y café ☕ por participantes de la primera cohorte
+          </span>
+        </ul>
       </footer>
     </div>
   )
