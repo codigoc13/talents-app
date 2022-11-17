@@ -6,16 +6,17 @@ const Footer = () => {
   return (
     <div>
       <footer className="redes">
-        <ul className="items-footer">
-          <ol className="ol">
-            <li className="link-footer">
-              <NavLink to="/home">Home</NavLink>
-            </li>
+        <ol className="ol">
+          <li className="link-footer">
+            <NavLink to="/home">Inicio</NavLink>
+          </li>
 
-            <li className="link-footer">
-              <NavLink to="/about">About Us</NavLink>
-            </li>
-          </ol>
+          <li className="link-footer">
+            <NavLink to="/about">Sobre nosotros</NavLink>
+          </li>
+        </ol>
+
+        <ul className="items-footer">
           <li data-color="#1877f2" className="item">
             <a href="https://www.facebook.com/profile.php?id=100083129922344">
               <i className="fa-brands fa-facebook" aria-hidden="true"></i>
@@ -33,10 +34,10 @@ const Footer = () => {
               <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
             </a>
           </li>
+          <span className="slogan-footer">
+            Hecho con amor 💙 y café ☕ por participantes de la primera cohorte
+          </span>
         </ul>
-        <h1 className="slogan-footer">
-          Hecho con 👨‍💻 por directrices de Código y sus participantes
-        </h1>
       </footer>
     </div>
   )

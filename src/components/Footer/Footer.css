@@ -5,12 +5,15 @@
   background: #fee600;
   width: 100%;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .ol li {
   width: 100px;
   align-items: center;
   text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
 }
 
 .ol li a {
@@ -42,6 +45,7 @@
   justify-content: center;
   background-color: #ffe602;
   width: 100%;
+  height: 260px;
 }
 
 .items-footer li {
@@ -68,13 +72,13 @@
 
 .items-footer .item a {
   position: relative;
-  width: 70px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(89, 56, 149);
+  color: rgb(0, 0, 0);
   border-radius: 100px;
   text-decoration: none;
   margin: 20px;
@@ -82,12 +86,14 @@
   transform-style: preserve-3d;
   perspective: 500px;
   box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
-  transition: background 0.25s;
 }
 
 .slogan-footer {
   color: #000000;
   background: #fee600;
   width: 100%;
+  height: 80px;
   text-align: center;
+  font-size: 1rem;
+  margin-top: 80px;
 }
