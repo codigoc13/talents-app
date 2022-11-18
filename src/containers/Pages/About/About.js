@@ -46,10 +46,10 @@ const About = () => {
             <span> Aprovechar la alta demanda en las </span>
             <span> areas de la tecnología </span> de la información como una
             herramienta para el cierre de brechas de inequidad social,
-            convertirla en un puente para la <span> enpleabilidad </span> y la
+            convertirla en un puente para la <span> empleabilidad </span> y la
             generación de riqueza en comunidades socialmente vulnerables,
             aportando a la transformación hacia comunidades socialmente
-            sostenibles
+            sostenibles.
           </h1>
         </div>
       </div>
