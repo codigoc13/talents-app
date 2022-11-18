@@ -18,19 +18,25 @@ const Footer = () => {
 
         <ul className="items-footer">
           <li data-color="#1877f2" className="item">
-            <a href="https://www.facebook.com/profile.php?id=100083129922344">
+            <a
+              href="https://www.facebook.com/profile.php?id=100083129922344"
+              target="_blank"
+            >
               <i className="fa-brands fa-facebook" aria-hidden="true"></i>
             </a>
           </li>
 
           <li data-color="#ff6600" className="item">
-            <a href="https://www.instagram.com/codigo.c13/">
+            <a href="https://www.instagram.com/codigo.c13/" target="_blank">
               <i className="fa-brands fa-instagram" aria-hidden="true"></i>
             </a>
           </li>
 
           <li data-color="#2260e7" className="item">
-            <a href="https://www.linkedin.com/company/corporación-afrocolombiana-son-batá/">
+            <a
+              href="https://www.linkedin.com/company/corporación-afrocolombiana-son-batá/"
+              target="_blank"
+            >
               <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
             </a>
           </li>
