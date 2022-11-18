@@ -69,14 +69,15 @@
   position: relative;
   width: 270px;
   height: 175px;
-  right: 250px;
-  top: 46px;
+  right: 246px;
+  top: 28px;
 }
 
 .description-1 {
   font-family: coogose-thin;
   font-size: 15px;
   color: #ffffff;
+  line-height: 1.5;
 }
 
 .image-description {
@@ -97,6 +98,7 @@
   font-size: 12px;
   color: black;
   text-align: center;
+  line-height: 1.5;
 }
 
 .description-2 span {
