@@ -38,14 +38,14 @@ const About = () => {
         
         <div className='container-description-3'>
           <h1 className='description-2'>
-            <span>Aprovechar la alta demanda en las</span> <span>areas de la tecnología</span> de la información como una herramienta para el cierre de brechas de inequidad social, convertirla en un puente para la <span>enpleabilidad</span> y la generación de riqueza en comunidades socialmente vulnerables, aportando a la transformación hacia comunidades socialmente sostenibles
+            <span> Aprovechar la alta demanda en las </span> <span> areas de la tecnología </span> de la información como una herramienta para el cierre de brechas de inequidad social, convertirla en un puente para la <span> enpleabilidad </span> y la generación de riqueza en comunidades socialmente vulnerables, aportando a la transformación hacia comunidades socialmente sostenibles
           </h1>
         </div>
       </div>
 
       <div className="container-description">
         <iframe
-          width="80%"
+          width="100%"
           height="500"
           src="https://www.youtube.com/embed/q2mg3QTxef0"
           title="YouTube video player"
