@@ -41,7 +41,7 @@ const Footer = () => {
             </a>
           </li>
           <span className="slogan-footer">
-            Hecho con amor ❤️ y café ☕ por participantes de la primera cohorte
+            Hecho con amor ❤️ y viche 🍺 por participantes de la primera cohorte
           </span>
         </ul>
       </footer>
