@@ -18,15 +18,15 @@ const About = () => {
         <img src={imageBanner} alt="" className="image-baner" />
       </div>
 
-      <div>
+      <div className="container-description">
         <iframe
-          width="100%"
-          height="400"
+          width="80%"
+          height="500"
           src="https://www.youtube.com/embed/Gx2EHOrCuZU"
           title="YouTube video player"
-          frameBorder="0"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
+          allowfullscreen
         ></iframe>
       </div>
 
@@ -43,7 +43,7 @@ const About = () => {
 
         <div className="container-description-3">
           <h1 className="description-2">
-            <span> Aprovechar la alta demanda en las </span>{' '}
+            <span> Aprovechar la alta demanda en las </span>
             <span> areas de la tecnología </span> de la información como una
             herramienta para el cierre de brechas de inequidad social,
             convertirla en un puente para la <span> enpleabilidad </span> y la
@@ -56,7 +56,7 @@ const About = () => {
 
       <div className="container-description">
         <iframe
-          width="100%"
+          width="80%"
           height="500"
           src="https://www.youtube.com/embed/q2mg3QTxef0"
           title="YouTube video player"
@@ -68,7 +68,7 @@ const About = () => {
 
       <div className="container-description">
         <iframe
-          width="100%"
+          width="80%"
           height="550"
           src="https://www.youtube.com/embed/pWlSoH4yhvA"
           title="YouTube video player"
