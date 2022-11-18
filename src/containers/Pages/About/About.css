@@ -2,6 +2,17 @@
   margin: 130px 0;
 }
 
+.container-banner {
+  margin: auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.image-baner {
+  width: 85%;
+  margin: auto;
+}
+
 .container-about {
   margin: 2rem;
   display: flex;
@@ -79,7 +90,6 @@
   position: relative;
   width: 275px;
   right: 90px;
-  z-index: 99;
 }
 
 .description-2 {

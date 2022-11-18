@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import imageDescription from '../../../Assets/images/sobrenosotros.png'
+import imageBanner from '../../../Assets/images/bannerSonBata.jpg'
 
 const About = () => {
   const titulo = 'El talento no debe tener estrato social'
@@ -11,6 +12,10 @@ const About = () => {
           <h1 className="title-aboutUs">Escuela de Código Comuna C13</h1>
           <h2 className="slogan">{titulo}</h2>
         </div>
+      </div>
+
+      <div className="container-banner">
+        <img src={imageBanner} alt="" className="image-baner" />
       </div>
 
       <div>
@@ -26,7 +31,7 @@ const About = () => {
       </div>
 
       <div className="container-description-1">
-        <img src={imageDescription} alt="" className='image-description'/>
+        <img src={imageDescription} alt="" className="image-description" />
         <div className="container-description-2">
           <h1 className="description-1">
             Código Comuna 13 es una escuela para el desarrollo de capacidades
@@ -35,10 +40,16 @@ const About = () => {
             sostenible.
           </h1>
         </div>
-        
-        <div className='container-description-3'>
-          <h1 className='description-2'>
-            <span> Aprovechar la alta demanda en las </span> <span> areas de la tecnología </span> de la información como una herramienta para el cierre de brechas de inequidad social, convertirla en un puente para la <span> enpleabilidad </span> y la generación de riqueza en comunidades socialmente vulnerables, aportando a la transformación hacia comunidades socialmente sostenibles
+
+        <div className="container-description-3">
+          <h1 className="description-2">
+            <span> Aprovechar la alta demanda en las </span>{' '}
+            <span> areas de la tecnología </span> de la información como una
+            herramienta para el cierre de brechas de inequidad social,
+            convertirla en un puente para la <span> enpleabilidad </span> y la
+            generación de riqueza en comunidades socialmente vulnerables,
+            aportando a la transformación hacia comunidades socialmente
+            sostenibles
           </h1>
         </div>
       </div>
@@ -52,6 +63,18 @@ const About = () => {
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+        ></iframe>
+      </div>
+
+      <div className="container-description">
+        <iframe
+          width="100%"
+          height="550"
+          src="https://www.youtube.com/embed/pWlSoH4yhvA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
         ></iframe>
       </div>
     </div>
