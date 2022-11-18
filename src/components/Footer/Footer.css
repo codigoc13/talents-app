@@ -9,7 +9,7 @@
 }
 
 .ol li {
-  width: 100px;
+  width: 140px;
   align-items: center;
   text-align: center;
   margin-top: 30px;
@@ -17,6 +17,7 @@
 }
 
 .ol li a {
+  font-family: coogose-thin;
   text-decoration: none;
   color: #000000;
   font-weight: bold;
@@ -89,6 +90,7 @@
 }
 
 .slogan-footer {
+  font-family: coogose-thin;
   color: #000000;
   background: #fee600;
   width: 100%;
@@ -96,5 +98,6 @@
   text-align: center;
   font-size: 1rem;
   margin-top: 80px;
+  font-weight: bold;
 }
 
