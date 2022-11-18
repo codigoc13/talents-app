@@ -3,17 +3,17 @@ export const getSymbol = () => {
           {
                id: 1,
                program:"FrontEnd",
-               urlSymbol:"https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Agrupado_eslash_jqowrw.svg"
+               urlSymbol:"https://res.cloudinary.com/dtxtwpyjy/image/upload/v1668791936/Talents%20Avatar/symbols/Agrupado_eslash.svg"
           },
           {
                id: 2,
                program: "BackEnd",
-               urlSymbol: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Numeral_cixgbr.svg"
+               urlSymbol: "https://res.cloudinary.com/dtxtwpyjy/image/upload/v1668791936/Talents%20Avatar/symbols/Numeral.svg"
           },
           {
                id: 3,
                program: "FullStack",
-               urlSymbol: "https://res.cloudinary.com/dk9ktxdpj/image/upload/v1668526622/Agrupado_llaves_y2pt2j.svg"
+               urlSymbol: "https://res.cloudinary.com/dtxtwpyjy/image/upload/v1668791936/Talents%20Avatar/symbols/Agrupado_llaves.svg"
           }
      ]
      return symbols
