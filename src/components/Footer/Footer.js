@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="redes">
-        <ol className="ol">
+        <ul className="ol">
           <li className="link-footer">
             <NavLink to="/home">Inicio</NavLink>
           </li>
@@ -14,7 +14,7 @@ const Footer = () => {
           <li className="link-footer">
             <NavLink to="/about">Sobre nosotros</NavLink>
           </li>
-        </ol>
+        </ul>
 
         <ul className="items-footer">
           <li data-color="#1877f2" className="item">
@@ -28,7 +28,7 @@ const Footer = () => {
           </li>
 
           <li data-color="#ff6600" className="item">
-            <a href="https://www.instagram.com/codigo.c13/" target="_blank"
+            <a href="https://www.instagram.com/codigo_c13/" target="_blank"
             rel='noreferrer'>
               <i className="fa-brands fa-instagram" aria-hidden="true"></i>
             </a>
@@ -41,6 +41,13 @@ const Footer = () => {
               rel='noreferrer'
             >
               <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li data-color="#2260e7" className="item">
+            <a href="mailto:codigoc13@sonbata.org" target="_blank"
+              rel='noreferrer'>
+
+              <i className="fa-solid fa-at" aria-hidden="true"></i>
             </a>
           </li>
           <span className="slogan-footer">

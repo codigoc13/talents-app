@@ -4,7 +4,7 @@ import imageDescription from '../../../Assets/images/sobrenosotros.png'
 import imageBanner from '../../../Assets/images/bannerSonBata.jpg'
 
 const About = () => {
-  const titulo = 'El talento no debe tener estrato social'
+  const titulo = 'El talento no tiene estrato social'
   return (
     <div className="container-principal">
       <div className="container-about">
@@ -57,6 +57,17 @@ const About = () => {
       <div className="container-description">
         <iframe
           width="80%"
+          height="550"
+          src="https://www.youtube.com/embed/pWlSoH4yhvA"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="container-description">
+        <iframe
+          width="80%"
           height="500"
           src="https://www.youtube.com/embed/q2mg3QTxef0"
           title="YouTube video player"
@@ -66,17 +77,6 @@ const About = () => {
         ></iframe>
       </div>
 
-      <div className="container-description">
-        <iframe
-          width="80%"
-          height="550"
-          src="https://www.youtube.com/embed/pWlSoH4yhvA"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
     </div>
   )
 }
