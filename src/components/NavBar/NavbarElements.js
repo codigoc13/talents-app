@@ -48,13 +48,16 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
-  /* Second Nav */
-  /* margin-right: 24px; */
-  /* Third Nav */
-  /* width: 100vw;
-  white-space: nowrap; */
+  justify-content:center;
   @media screen and (max-width: 768px) {
-    display: none;
+    justify-content:flex-start;
+    display:${({ open }) => (open ? "none" : "flex")};
+    font-size:15px;
+    margin-right: 50px;
+    a{
+      img{
+        display:none
+      }
+    }
   }
 `
