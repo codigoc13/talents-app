@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/talents-app/static/css/main.d5966cda.css",
-    "main.js": "/talents-app/static/js/main.dc847958.js",
+    "main.css": "/talents-app/static/css/main.cb02dcdc.css",
+    "main.js": "/talents-app/static/js/main.1bac76d5.js",
     "static/media/bannerSonBata.jpg": "/talents-app/static/media/bannerSonBata.1f0022df2fc475c6c5ac.jpg",
     "static/media/Cocogoose Pro Thin Italic-trial.ttf": "/talents-app/static/media/Cocogoose Pro Thin Italic-trial.9ff299e02517481bba97.ttf",
     "static/media/Cocogoose Pro Thin-trial.ttf": "/talents-app/static/media/Cocogoose Pro Thin-trial.6440e32616f290a797e9.ttf",
     "static/media/Cocogoose Pro Light-trial.ttf": "/talents-app/static/media/Cocogoose Pro Light-trial.f77876cfc3790e5308f4.ttf",
     "static/media/logo2.0.png": "/talents-app/static/media/logo2.0.f2888369b7300b90657d.png",
     "index.html": "/talents-app/index.html",
-    "main.d5966cda.css.map": "/talents-app/static/css/main.d5966cda.css.map",
-    "main.dc847958.js.map": "/talents-app/static/js/main.dc847958.js.map"
+    "main.cb02dcdc.css.map": "/talents-app/static/css/main.cb02dcdc.css.map",
+    "main.1bac76d5.js.map": "/talents-app/static/js/main.1bac76d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5966cda.css",
-    "static/js/main.dc847958.js"
+    "static/css/main.cb02dcdc.css",
+    "static/js/main.1bac76d5.js"
   ]
 }
