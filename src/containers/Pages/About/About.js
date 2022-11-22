@@ -24,9 +24,9 @@ const About = () => {
           height="500"
           src="https://www.youtube.com/embed/Gx2EHOrCuZU"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
 
@@ -72,9 +72,9 @@ const About = () => {
           height="550"
           src="https://www.youtube.com/embed/pWlSoH4yhvA"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </div>
