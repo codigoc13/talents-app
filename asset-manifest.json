@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/talents-app/static/css/main.0cea21e1.css",
+    "main.css": "/talents-app/static/css/main.2f96ed51.css",
     "main.js": "/talents-app/static/js/main.35ee046c.js",
     "static/media/bannerSonBata.jpg": "/talents-app/static/media/bannerSonBata.5e60d7f2d4f1b693ed5e.jpg",
     "static/media/Cocogoose Pro Thin Italic-trial.ttf": "/talents-app/static/media/Cocogoose Pro Thin Italic-trial.9ff299e02517481bba97.ttf",
@@ -8,11 +8,11 @@
     "static/media/Cocogoose Pro Light-trial.ttf": "/talents-app/static/media/Cocogoose Pro Light-trial.f77876cfc3790e5308f4.ttf",
     "static/media/logo2.0.png": "/talents-app/static/media/logo2.0.f2888369b7300b90657d.png",
     "index.html": "/talents-app/index.html",
-    "main.0cea21e1.css.map": "/talents-app/static/css/main.0cea21e1.css.map",
+    "main.2f96ed51.css.map": "/talents-app/static/css/main.2f96ed51.css.map",
     "main.35ee046c.js.map": "/talents-app/static/js/main.35ee046c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cea21e1.css",
+    "static/css/main.2f96ed51.css",
     "static/js/main.35ee046c.js"
   ]
 }
