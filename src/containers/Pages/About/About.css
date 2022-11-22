@@ -10,7 +10,7 @@
 
 .image-baner {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   height: 500px;
   margin: auto;
 }
@@ -131,7 +131,11 @@
     right: 0;
   }
 
-  .description-2{
+  .description-2 {
     font-size: 18px;
+  }
+
+  .container-banner{
+    display: none;
   }
 }
