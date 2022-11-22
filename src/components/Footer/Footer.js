@@ -21,13 +21,15 @@ const Footer = () => {
             <a
               href="https://www.facebook.com/profile.php?id=100083129922344"
               target="_blank"
+              rel='noreferrer'
             >
               <i className="fa-brands fa-facebook" aria-hidden="true"></i>
             </a>
           </li>
 
           <li data-color="#ff6600" className="item">
-            <a href="https://www.instagram.com/codigo.c13/" target="_blank">
+            <a href="https://www.instagram.com/codigo.c13/" target="_blank"
+            rel='noreferrer'>
               <i className="fa-brands fa-instagram" aria-hidden="true"></i>
             </a>
           </li>
@@ -36,6 +38,7 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/company/corporación-afrocolombiana-son-batá/"
               target="_blank"
+              rel='noreferrer'
             >
               <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
             </a>
