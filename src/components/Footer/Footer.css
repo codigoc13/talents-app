@@ -101,3 +101,10 @@
   font-weight: bold;
 }
 
+@media only screen and (max-width : 499px) {
+  .items-footer .item a {
+    width: 80%;
+    height: 65%;
+  }
+
+}
