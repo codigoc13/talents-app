@@ -51,7 +51,7 @@ export const NavMenu = styled.div`
   justify-content:center;
   @media screen and (max-width: 768px) {
     justify-content:flex-start;
-    display:${({ open }) => (open ? "none" : "flex")};
+    display:${({ open }) => (open ? "flex" : "none")};
     font-size:15px;
     margin-right: 50px;
     a{

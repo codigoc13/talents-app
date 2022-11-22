@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <>
       <Nav>
-        <Bars onClick={() => setShowMobileMenu(showMobileMenu?false:true)}/>
+        <Bars onClick={() => setShowMobileMenu(!showMobileMenu)}/>
         <NavMenu open={showMobileMenu}>
 
           <NavLink to="/home">
