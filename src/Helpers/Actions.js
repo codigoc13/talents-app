@@ -24,12 +24,12 @@ export const getAllStudents = () => {
           {
 
                id: 3,
-               name: 'Stiven Arley Pareja Jimenez',
-               nickName: 'Stiven Pareja',
-               avatarUrl: "https://res.cloudinary.com/dtxtwpyjy/image/upload/v1668791822/Talents%20Avatar/Stiven_Pareja-PhotoRoom_untt1w.png",              
+               name: 'Santiago Padierna Suárez',
+               nickName: 'Santiago Padierna',
+               avatarUrl: "https://res.cloudinary.com/dtxtwpyjy/image/upload/v1668791822/Talents%20Avatar/Santiago_Padierna_S.-PhotoRoom_kydahf.png",
                program: "FrontEnd",
-               cv:"https://drive.google.com/file/d/1hS0D323ZeWAJ2Xav7xmrwRKylOiAoVBS/view?usp=share_link",
-               github: "https://github.com/chpc13",
+               cv: "https://drive.google.com/file/d/1W_TQFFb9HfzVStllXFrkKhCXhthjW2km/view?usp=share_link",
+               github: "https://github.com/padiernas",
                portafolio: ""
           },
           {
