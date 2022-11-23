@@ -81,7 +81,7 @@ export const getAllStudents = () => {
 
                id: 8,
                name: 'Jhon Edwin Asprilla Guisao ',
-               nickName: 'Jhon Edwin Asprilla',
+               nickName: 'Jhon Asprilla',
                avatarUrl: "https://res.cloudinary.com/dtxtwpyjy/image/upload/v1668791824/Talents%20Avatar/Jhon_Edwin_Asprilla_G.-PhotoRoom_wi5csf.png",
               
                program: "FrontEnd",
@@ -135,12 +135,32 @@ export const getAllStudents = () => {
           {
                id:13,
                name:"Kevin Alexis Jaramillo Potosí",
-               nickName:"Kevin Jaramillo Potosí",
+               nickName:"Kevin Jaramillo",
                avatarUrl:"https://res.cloudinary.com/dtxtwpyjy/image/upload/v1668791825/Talents%20Avatar/Kevin_Jaramillo-PhotoRoom_j3abmv.png",
                program:"FrontEnd",
                cv:"https://drive.google.com/file/d/1L53OEvyATNoIrLdTqNiWGsMEfhD_VauM/view?usp=share_link",
                github:"http://github.com/JP-KEVIN",
                portafolio:""
+          },
+          {
+               id: 14,
+               name: "Samuel Alvarez Macias ",
+               nickName: "Samuel Alvarez",
+               avatarUrl: "https://res.cloudinary.com/dtxtwpyjy/image/upload/v1669168285/Talents%20Avatar/Samuel_Alvarez_jaftig.png",
+               program: "BackEnd",
+               cv: "https://drive.google.com/file/d/1LFEDzaR2sn0QSpc7nhnEdHXXD9tvZ1Vb/view?usp=share_link",
+               github: "https://github.com/samuuelalv",
+               portafolio: ""
+          },
+          {
+               id: 15,
+               name: "Yinier Smith Mosquera Córdoba ",
+               nickName: "Yinier Mosquera",
+               avatarUrl: "https://res.cloudinary.com/dtxtwpyjy/image/upload/v1668791825/Talents%20Avatar/Yinier_Smith_Mosquera.-PhotoRoom_pt4pxm.png",
+               program: "FrontEnd",
+               cv: "https://drive.google.com/file/d/16DKElhiTS2KT4XXR81l1hzp5xpVR2nkw/view?usp=share_link",
+               github: "",
+               portafolio: ""
           }
           
      ]
