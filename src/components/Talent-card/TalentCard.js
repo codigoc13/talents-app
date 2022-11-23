@@ -30,7 +30,8 @@ const TalentCard = () => {
       </div>
 
       <div class="social">
-          <a target="_blank" href=${studentInfo.github} class="item-social"><i class="ph-github-logo fa"></i>Github</a>
+        ${studentInfo.github === "" ? "" : `<a target="_blank" href=${studentInfo.github} class="item-social"><i class="ph-github-logo fa"></i>Github</a>`}
+          
           ${studentInfo.portafolio===""?"":`<a target="_blank" href=${studentInfo.portafolio} class="item-social"><i class="ph-globe fa"></i>Portafolio</a>`}
           
           <a target="_blank" href=${studentInfo.cv} class="item-social"><i class="ph-file fa"></i>Resumen</a>
